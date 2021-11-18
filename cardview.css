@@ -91,6 +91,51 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+@media only screen and (max-width: 800px) {
+  .theme-switchers {
+    padding-left: 30%;
+    padding-right: 30%;
+    width: 40%;
+  }
+  .cardview-menubar {
+    padding-top: 1%;
+    display: flex;
+    margin: auto;
+    padding: 3px;
+    height: 10%;
+    border-radius: 6px;
+  }
+  .page-label {
+    margin: auto;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+  }
+  .cardview-btn {
+    margin: auto;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .theme-switchers {
     padding-left: 20%;
@@ -133,7 +178,7 @@ body {
 @media only screen and (max-width: 500px) {
   .theme-switchers {
     padding-left: 20%;
-    padding-right: 20$;
+    padding-right: 20%;
     width: 60%;
   }
   .cardview-menubar {
@@ -172,7 +217,7 @@ body {
 @media only screen and (max-width: 400px) {
   .theme-switchers {
     padding-left: 20%;
-    padding-right: 20$;
+    padding-right: 20%;
     width: 60%;
   }
   .cardview-menubar {
@@ -211,7 +256,7 @@ body {
 @media only screen and (max-width: 350px) {
   .theme-switchers {
     padding-left: 20%;
-    padding-right: 20$;
+    padding-right: 20%;
     width: 60%;
   }
   .cardview-menubar {
@@ -250,7 +295,7 @@ body {
 @media only screen and (max-width: 300px) {
   .theme-switchers {
     padding-left: 20%;
-    padding-right: 20$;
+    padding-right: 20%;
     width: 60%;
   }
   .cardview-menubar {
