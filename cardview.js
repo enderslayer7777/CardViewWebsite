@@ -1,7 +1,7 @@
 setTimeout(() => {
     document.getElementById("cardview-container-loading").remove();
     document.getElementById("svg-loader-container").remove();
-    document.getElementById("cardview-container").innerHTML = '<div class="cardview-document" id="cardview-document"></div><div class="cardview-menubar" id="cardview-menubar"><button class="cardview-btn" onclick="openDoc()"><b>View the Document</b></button></div>';
+    document.getElementById("cardview-container").innerHTML = '<div class="cardview-document" id="cardview-document"></div><div class="document-menubar-spacer" id="document-menubar-spacer"></div><div class="cardview-menubar" id="cardview-menubar"><button class="cardview-btn" onclick="openDoc()"><b>View the Document</b></button></div>';
 }, 3000);
 
 var page = 1;
