@@ -6,7 +6,8 @@ body {
 }
 
 .document-menubar-spacer {
-  width: 2%;
+  height: 2%;
+  width: 100%;
 }
 
 .cardview-container-loading {
